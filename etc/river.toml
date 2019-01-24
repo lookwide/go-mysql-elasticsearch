@@ -1,15 +1,15 @@
 # MySQL address, user and password
 # user must have replication privilege in MySQL.
-#my_addr = "wiz-database-prod-cluster.cluster-ro-cfqo6cjytuk4.us-west-1.rds.amazonaws.com:5378"
 my_addr = "wiz-database-prod-cluster.cluster-cfqo6cjytuk4.us-west-1.rds.amazonaws.com:5378"
 my_user = "unicorndb"
 my_pass = "vidueyr73854*%"
 my_charset = "utf8"
 
 # Set true when elasticsearch use https
-es_https = true
+es_https = false
 # Elasticsearch address
-es_addr = "vpc-lookwide-production-boagolljhfg6hbpffswwkbbhby.us-west-1.es.amazonaws.com"
+#es_addr = "vpc-lookwide-production-boagolljhfg6hbpffswwkbbhby.us-west-1.es.amazonaws.com"
+es_addr = "localhost:9200"
 # Elasticsearch user and password, maybe set by shield, nginx, or x-pack
 es_user = ""
 es_pass = ""
